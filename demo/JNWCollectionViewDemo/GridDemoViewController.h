@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import <JNWCollectionView/JNWCollectionView.h>
 
-@interface GridDemoViewController : NSViewController <JNWCollectionViewDataSource, JNWCollectionViewGridLayoutDelegate>
+@interface GridDemoViewController : NSViewController
 
 @property (nonatomic, weak) IBOutlet JNWCollectionView *collectionView;
 
